@@ -15,5 +15,4 @@ public class Task01_SMMahediHasan_2112370642 {
 		// Area
 		System.out.println("The area of the polygon is " + area);
 	    }
-
 }

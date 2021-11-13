@@ -14,18 +14,19 @@ public class Task03_SMMahediHasan_2112370642 {
 		
 		// Display pyramid
 		//r=rows s=space 
-		
-		for (int r = 1; r <= lines; r++) {
-			for (int s = lines - r; s >= 1; s--) {
-				System.out.print("  ");
+		for (int rows = 1; rows <= lines; rows++) {
+			for (int space = lines - rows; space >= 1; space--) {
+				System.out.print("   ");
+			}			
+			//decreasing numbers in each row
+			for (int i = rows; i >= 1; i--) {
+					System.out.print(i*3+ " ");
 			}
-			// decreasing numbers in each row
-			for (int i = r; i >= 2; i--) {
-				System.out.print(i + " ");
-			}
-			// increasing numbers of each row
-			for (int j = 1; j<= r; j=j++) {
-				System.out.print(j + " ");
+			
+			System.out.print("1 ");
+			//increasing numbers of each row
+			for (int j = 1; j<= rows; j++) {
+				System.out.print(j*3+ " ");
 			}
 			System.out.println();
 		}
