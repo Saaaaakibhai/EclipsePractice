@@ -31,6 +31,7 @@ public class ArraySum {
 			    double avarage = sum/size;
 			    System.out.println("\n\nSum: "+sum);
 			    System.out.println("Avarage: "+avarage);
+			    input.close();
 		  }
 
 	}
