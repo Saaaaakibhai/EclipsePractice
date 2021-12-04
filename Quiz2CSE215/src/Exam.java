@@ -1,4 +1,3 @@
-
 public class Exam {
     private String examType;
     private String examName;

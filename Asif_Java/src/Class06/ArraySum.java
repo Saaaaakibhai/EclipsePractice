@@ -17,7 +17,8 @@ public class ArraySum {
 			    	for(int j=0;j<col;j++)
 			    	{
 			    		System.out.print("Enter Marks ["+i+"]["+j+"]:");
-			    		arr[i][j]=input.nextDouble();	    	}
+			    		arr[i][j]=input.nextDouble();	    	
+			    		}
 			    }
 			    double sum = 0.0;
 			    for(int i=0;i<row;i++)

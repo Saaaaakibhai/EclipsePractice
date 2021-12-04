@@ -25,6 +25,6 @@ public class FullTimeEmployee extends Employee {
             return aw+basic;
 	}
 	public String toString() {
-		return "Basic:"+basic+"Allowance: "+allowance;
+		return "Name: "+this.getName()+"Age"+this.getAge()+"Basic"+basic;
 	}
 }

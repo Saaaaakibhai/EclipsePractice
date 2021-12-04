@@ -24,11 +24,9 @@ public class Main {
         arr[i]= new FullTimeEmployee(name,age,address,department,designation,basic,allowance);
 	    }
 	    for(int i=0;i<arr.length;i++) {
-	    	System.out.println(arr[i].salary());
+	    	System.out.println(arr[i].toString());
 	    }
-	    
-	    
-	    
+	    ////////
 	    
 	    PartTimeEmployee[] arr1 = new PartTimeEmployee[N];
 	    for(int i=0;i<arr1.length;i++) {
@@ -47,14 +45,12 @@ public class Main {
         System.out.println("Rate: ");
         double rate = input.nextDouble();
         System.out.println("Basic: " );//Salary
-        double basic= input.nextDouble();
-        System.out.println("Allowance: " );
-        double allowance= input.nextDouble();
         arr1[i]= new PartTimeEmployee(name,age,address,department,designation,hours,rate);
 	    }
 	    for(int i=0;i<arr1.length;i++) {
 	    	System.out.println(arr1[i].salary());
 	    }
+	    input.close();
 	}
 
 }

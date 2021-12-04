@@ -2,7 +2,7 @@ package Inheritance;
 
 public class Person {
 	  //instance variable  
-	  private String name;
+	  String name;
 	  private int age;
 	  private String address;
 	  //constructor 
