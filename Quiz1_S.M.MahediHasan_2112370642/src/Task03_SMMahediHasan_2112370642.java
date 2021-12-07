@@ -16,7 +16,7 @@ public class Task03_SMMahediHasan_2112370642 {
 		//r=rows s=space 
 		for (int rows = 1; rows <= lines; rows++) {
 			for (int space = lines - rows; space >= 1; space--) {
-				System.out.print("   ");
+				System.out.print("  ");
 			}			
 			//decreasing numbers in each row
 			for (int i = rows; i >= 1; i--) {

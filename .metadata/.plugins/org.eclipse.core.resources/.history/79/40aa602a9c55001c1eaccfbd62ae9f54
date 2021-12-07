@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Task01_2112370642 {		  
+		// Function to find the sum of series
+public static void main(String[]args){
+		{
+			Scanner input = new Scanner(System.in);
+		    double sum = 0;
+		    double N = input.nextDouble();
+		    for (int i = 1; i <= N; i++) {
+		  
+		        // Generate the i th term and
+		        // add it to the sum if i is
+		        // even and subtract if i is
+		        // odd
+		        if (i % 2 == 1) {
+		            sum += (double)i / (i + 1);
+		        }
+		        else {
+		            sum -= (double)i / (i + 1);
+		        }
+		    }
+		  
+		    // Print the sum
+		    System.out.print(sum +"\n");
+		}
+      }
+}
