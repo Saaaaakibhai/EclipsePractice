@@ -1,5 +1,4 @@
 package Class12_02;
-
 public class Person {
           private String name;
           private int age;
