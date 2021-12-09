@@ -1,6 +1,6 @@
 package Abstraction;
 
-public class Circle {
+public class Circle extends Shape {
    private double radius;
    Circle(){
 	   
@@ -9,9 +9,7 @@ public class Circle {
 	this.radius=radius;   
    }
    Circle(double radius,String color,boolean filled){
-	   this.radius=radius;
-
-	   
+	   this.radius=radius;	   
    }
 public double getRadius() {
 	return radius;
@@ -19,5 +17,16 @@ public double getRadius() {
 public void setRadius(double radius) {
 	this.radius = radius;
 }
-public 
+@Override
+public double getArea(){
+	return Math.PI*(radius*radius);
+}
+@Override
+public double getPerimeter() {
+	return 2*Math.PI*radius;
+}
+@Override
+public String toString() {
+	return "Circle [radius=" + radius + "]";
+}
 }
