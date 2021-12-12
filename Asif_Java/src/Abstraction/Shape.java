@@ -1,6 +1,5 @@
 package Abstraction;
-
-public abstract class Shape {
+abstract class Shape {
 private String color;
 private boolean filled;
 Shape() {
