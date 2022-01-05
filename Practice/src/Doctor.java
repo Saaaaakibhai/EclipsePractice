@@ -1,10 +1,10 @@
-public class Doctor {
+/*public class Doctor {
 private String specialization;
 private double hourlyRate;
 Doctor(){
 	
-} 
-public Person extends Doctor(String specialization, double hourlyRate) {
+} */
+/*public Person  Doctor(String specialization, double hourlyRate) {
 	this.specialization = specialization;
 	this.hourlyRate = hourlyRate;
 }
@@ -23,3 +23,4 @@ public void setHourlyRate(double hourlyRate) {
 
 }
 
+*/

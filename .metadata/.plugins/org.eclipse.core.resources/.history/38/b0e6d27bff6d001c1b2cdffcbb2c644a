@@ -1,0 +1,33 @@
+package FinalLab;
+
+public class Laptop extends MyDrive implements Camera{
+    private String eMail;
+    Laptop(){
+    	
+    }
+    Laptop(String eMail){
+    	this.eMail=eMail;
+    }
+    
+    
+	public String geteMail() {
+		return eMail;
+	}
+	public void seteMail(String eMail) {
+		this.eMail = eMail;
+	}
+	
+	
+	@Override
+	public void takePicture() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void takeVideo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
