@@ -1,5 +1,14 @@
-package lab01;
+package Lab01;
 
-public class task01 {
+/**Task – 1
+(Display three messages) Write a program that displays Welcome to Java, Welcome to Computer
+Science, and Programming is fun.**/
 
+public class Task01 {
+           public static void main(String[]args) {
+        	   System.out.println("Welcome to java");
+        	   System.out.println("Welcome to computer science");
+        	   System.out.println("Programming is fun");
+        	   
+		}
 }

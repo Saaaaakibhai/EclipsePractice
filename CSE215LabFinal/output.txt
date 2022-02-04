@@ -1,0 +1,14 @@
+Car: 
+color='Blue
+IDnumber=1000
+model='Demo121
+Cycle: 
+color='Black
+IDnumber=2000
+model='Alpha007
+Car: 
+color='Red
+IDnumber=3000
+model='ByteXO
+false
+false

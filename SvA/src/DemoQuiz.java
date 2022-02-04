@@ -6,3 +6,10 @@ public class DemoQuiz {
 	                    System.out.println("Half of "+num+"is"+half+".");
 	}
 }
+
++Cycle()
++Cycle(Color: String,IDnumber: int,model: String)
++equals(Object): boolean
++wheels():void
++HowtoRun(): void
++toString():Sting
