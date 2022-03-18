@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;cnt&apos; in &apos;Assigment.Consecutive.countCon(...)&apos; to &apos;count&apos;&#x0D;&#x0A;- Original project: &apos;Fatema&apos;&#x0D;&#x0A;- Original element: &apos;Assigment.Consecutive.countCon(int[], int).cnt&apos;&#x0D;&#x0A;- Renamed element: &apos;cnt&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;cnt&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Assigment{Consecutive.java[Consecutive~countCon~\[I~I@cnt!137!148!141!143!I!0!false" name="count" references="true" stamp="1645894007721" version="1.0"/>
+</session>
