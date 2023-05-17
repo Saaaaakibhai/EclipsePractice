@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;NUMBER_OF_YEARS&apos; in &apos;ThirdClass.Task04.main(...)&apos; to &apos;number_of_years&apos;&#x0D;&#x0A;- Original project: &apos;LabPractice&apos;&#x0D;&#x0A;- Original element: &apos;ThirdClass.Task04.main(String[]).NUMBER_OF_YEARS&apos;&#x0D;&#x0A;- Renamed element: &apos;NUMBER_OF_YEARS&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;NUMBER_OF_YEARS&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;ThirdClass{Task04.java[Task04~main~\[QString;@NUMBER_OF_YEARS!166!190!170!184!I!0!false" name="number_of_years" references="true" stamp="1635839369208" version="1.0"/>
-</session>
